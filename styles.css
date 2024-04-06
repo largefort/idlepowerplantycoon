@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#money {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#moneyAmount {
+    font-weight: bold;
+}
+
+#powerPlants, #pollutionTax {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#powerPlantCount, #pollutionTaxAmount {
+    font-weight: bold;
+}
